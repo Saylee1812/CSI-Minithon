@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 200%;
+  }
+  
+  body{
+    background-image: url('https://media.istockphoto.com/id/1304910851/photo/waxing-crescent-moon-with-a-night-sky-stars-background-amazing-view-of-the-tiny-moon-surface.webp?b=1&s=170667a&w=0&k=20&c=-EaCmQoTbEIXMTZh8vOs2fgSQaBykavgGl7kvWoiLOE=');
+    background-size: cover;
+  }
+  .nav {
+     font-family:monospace;  
+     font-size: 2vw;
+     font-weight: bolder;
+     border-radius: 1.2vw;
+     vertical-align: bottom;
+  
+      align-items: centre;
+      height: 10%;
+     width:100%;
+     
+      color: white;
+      margin-right: 100%;
+    padding-bottom:4vw;
+    padding-top: 2vw;
+    position: top;
+    display: flex;
+    justify-content: space-around;
+   
+    
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+  }
+  
+  
+  
+  .signup-b {
+    background-color: rgb(106, 66, 179);
+    border: none;
+    color: rgb(221, 224, 227);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    transition: background-color 0.51s, color 0.51s, box-shadow 0.15s;
+    align-self: center;
+    margin-top: 2vw;
+  }
+  
+  .signup-b:hover {
+    background-color: rgb(169, 137, 200);
+    color: white;
+    opacity: 0.8vw;
+    box-shadow: 5vw 5vw 10vw rgba(0, 0, 0, 0.75);
+  }
+  
+  .signup-b:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  
+  }
+  
+  
+  .form {
+    font-family:monospace;
+    font-size: 2vw;
+    background-color:rgba(8, 64, 129, 0.75);
+    color:white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin:1vw 1vw 1vw 1vw;
+    border-radius: 5vw;
+    opacity:0.3vw;
+    height: 30vw;
+
+  
+
+  }
+  
+  #logo {
+    width:15vw;
+    height:15vw;
+  opacity: 0.3vw;
+    
+  }
+  
+  #search
+    {
+      width :5vw;
+      height: 2vw;
+      text-align: center;
+      font-size: 80%;
+      align-self: center;
+      padding: 1vw;
+      border-radius: 160%;
+    }
+      
+      a{
+         color: white;
+          position: relative;
+          background-color: rgb(80, 145, 161);
+          border-radius: 46%;
+          padding: 2vw;
+          font-size: 1.5vw;
+          height: 1.6vw;
+          text-align: center;
+      }
+
+
+      
+    
+  
+  .one{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p{
+    font-family:monospace;
+  }
+  
+  .tagline{
+    font-size: 3vw;
+    font-weight:bold;
+    color: white;
+  }
+  
+  .labels{
+    margin: 1vw;
+  }
